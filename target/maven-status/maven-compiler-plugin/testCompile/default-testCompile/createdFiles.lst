@@ -1,0 +1,9 @@
+com\vickee\PayrollTest\HomePageTest.class
+com\vickee\PayrollTest\UpdateEmpTest.class
+com\vickee\PayrollTest\DelEmpTest.class
+com\vickee\PayrollTest\ViewEmployeeTest.class
+com\vickee\PayrollTest\UpdatePayTest.class
+com\vickee\PayrollTest\AddPayrollTest.class
+com\vickee\PayrollTest\DelPayTest.class
+com\vickee\PayrollTest\AddEmployeeTest.class
+com\vickee\PayrollTest\ViewPayrollTest.class
