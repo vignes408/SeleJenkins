@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: com.vickee.PayrollTest.AddPayrollTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.06 s -- in com.vickee.PayrollTest.AddPayrollTest
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 153.2 s <<< FAILURE! -- in com.vickee.PayrollTest.AddPayrollTest
+com.vickee.PayrollTest.AddPayrollTest.testAddPayroll1 -- Time elapsed: 48.52 s <<< ERROR!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Data added Successfully}
+  (Session info: chrome=127.0.6533.72): Data added Successfully
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2a6b7654d2dd7633889803b02671acec, submitElement {id=f.FE94D8A59F5EA16821F109CAF3374D5E.d.8EC8C7381767A19DDDF338BD4FF19095.e.4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.72, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\VIGNES~1.RAJ\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64309}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64309/devtoo..., se:cdpVersion: 127.0.6533.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2a6b7654d2dd7633889803b02671acec)] -> id: submit]
+Session ID: 2a6b7654d2dd7633889803b02671acec
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:82)
+	at com.vickee.PayrollTest.AddPayrollTest.testAddPayroll1(AddPayrollTest.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
