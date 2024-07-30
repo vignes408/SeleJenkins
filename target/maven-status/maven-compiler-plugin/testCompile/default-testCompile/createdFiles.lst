@@ -1,7 +1,5 @@
 com\vickee\PayrollTest\HomePageTest.class
-com\vickee\PayrollTest\UpdateEmpTest.class
-com\vickee\PayrollTest\ViewEmployeeTest.class
-com\vickee\PayrollTest\UpdatePayTest.class
 com\vickee\PayrollTest\AddPayrollTest.class
 com\vickee\PayrollTest\AddEmployeeTest.class
+com\vickee\PayrollTest\ViewEmployeeTest.class
 com\vickee\PayrollTest\ViewPayrollTest.class
