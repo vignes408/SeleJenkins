@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.vickee.PayrollTest.UpdateEmpTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 23.44 s <<< FAILURE! -- in com.vickee.PayrollTest.UpdateEmpTest
-com.vickee.PayrollTest.UpdateEmpTest.test -- Time elapsed: 23.44 s <<< ERROR!
-org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for alert to be present (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.72, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\VIGNES~1.RAJ\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64728/devtoo..., se:cdpVersion: 127.0.6533.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a73eca06fa097a9bac4adbaa9924ea03
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.vickee.PayrollTest.UpdateEmpTest.test(UpdateEmpTest.java:29)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.89 s -- in com.vickee.PayrollTest.UpdateEmpTest
